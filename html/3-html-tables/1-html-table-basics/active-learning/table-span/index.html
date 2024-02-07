@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Active Learning: Table Span</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Animals table</h1>
+
+    <!-- BEFORE -->
+
+    <table>
+        <tr>
+          <th>Daftar Anak Pegawai PT Karya Makmur</th>
+        </tr>
+        <tr>
+          <th>Kel. Heri</th>
+        </tr>
+        <tr>
+          <th>Kel. Sanusi</th>
+          <td>Lila</td>
+        </tr>
+        <tr>
+          <td>Suci</td>
+        </tr>
+        <tr>
+          <th>Kel. Rudi</th>
+        </tr>
+        <tr>
+          <th>Kel. Budi</th>
+          <td>Ilham</td>
+        </tr>
+        <tr>
+          <td>Sita</td>
+        </tr>
+      </table>
+
+      <br>
+    
+    <!-- AFTER -->
+
+    <table>
+      <tr>
+        <th colspan="2">Daftar Anak Pegawai PT Karya Makmur</th>
+      </tr>
+      <tr>
+        <th colspan="2">Kel. Heri</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Kel. Sanusi</th>
+        <td>Lila</td>
+      </tr>
+      <tr>
+        <td>Suci</td>
+      </tr>
+      <tr>
+        <th colspan="2">Kel. Rudi</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Kel. Budi</th>
+        <td>Ilham</td>
+      </tr>
+      <tr>
+        <td>Sita</td>
+      </tr>
+    </table>
+
+
+  </body>
+</html>
