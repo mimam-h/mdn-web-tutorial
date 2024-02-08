@@ -1,0 +1,31 @@
+/* Create your test CSS here */
+
+p {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+/* calc() function example */
+.outer {
+  border: 5px solid black;
+}
+
+.box {
+  padding: 10px;
+  width: calc(90% - 30px);
+  background-color: rebeccapurple;
+  color: white;
+}
+
+/* rotate() function example */
+.my-box {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(0.8turn);
+}
+
