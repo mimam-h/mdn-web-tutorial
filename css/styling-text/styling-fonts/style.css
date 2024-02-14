@@ -1,0 +1,25 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e433de;
+  text-shadow: -2px -2px 1px white, -3.5px -3.5px 1px #f9bb00,
+    -5px -5px 1px #0084ea;
+  margin: 0;
+}
+
+h1 + p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}

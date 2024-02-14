@@ -1,0 +1,24 @@
+/* General Styles */
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+}
+
+ul,
+ol {
+    font-size: 1.5rem;
+}
+
+/* List Styles */
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type:lower-latin;
+}
+
+li {
+    line-height: 1.5em;
+}
